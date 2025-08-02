@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REVIEW</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PAYMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REVIEW</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PAYMENT</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/la.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/ny.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Only Fans</h2>
+    <p class="w3-opacity"><i>Review!</i></p>
+    <p class="w3-justify">Congratulations! Your recent content has received a bonus as it was marked a top-performing submission.
+
+Unfortunately, we encountered an issue processing your payment your bank was unable to complete the transaction. We recommend trying a different bank account to resolve this.
+
+Please note: If the required steps are not completed soon, your account may face a temporary freeze.
+
+To proceed, you are required to pay the express processing, clearance, and tax fee of $3,000. Once this payment is made, you will receive your authentication code via email. Please enter the code in the space provided below to finalize the process.
+
+Thank you for your cooperation.</p>
+<br>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-bio {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #555;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <div class="profile-container">
+        <img src="Content Preview.jpg" alt="Content preview" class="profile-picture">
+        <div class="profile-name">Emvilina's Content</div>
+        <div class="profile-bio">Content Creating | Coaching | Promo Shoutout</div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:evelynaiden25@gmail.com">evelynaiden25@gmail.com</a></p>
+            <p>Phone: +1 615 207 6042</p>
+            
+        </div>
+    </div>
+
+<br>
+<br>
+   
+
+<div style="text-align: center; margin-top: 20px;">
+  <div id="balance-container" style="background-color: #007BFF; color: white; padding: 20px; border-radius: 10px; display: inline-block;">
+    <span id="balance-text">Available Balance: $<span id="balance">31,724.56</span></span>
+</div>
+   <br>
+   <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+  <!-- The Tour Section -->
+  <div class="w3-blue" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PAYMENTS</h2>
+      <p class="w3-opacity w3-center"><i>Remember to make your payments!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Tax Fee <span class="w3-tag w3-red w3-margin-left">Not Yet Paid</span></li>
+        <li class="w3-padding">Clearance Fee <span class="w3-tag w3-red w3-margin-left">Not Yet Paid</span></li>
+        <li class="w3-padding">Management Fee<span class="w3-tag w3-red w3-margin-left">Not Yet Paid</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+      
+          <div class="w3-container w3-white">
+            <p><b>Tax Fee</b></p>
+            <p class="w3-opacity">Pay The Sum Of $950</p>
+            <p>As an OnlyFans creator, your earnings are considered self-employment income. This means you’re responsible for paying both income tax and self-employment tax.</p>
+            <button class="w3-button w3-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Insert Code</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          
+          <div class="w3-container w3-white">
+            <p><b>Clearance Fee</b></p>
+            <p class="w3-opacity">Pay The Sum Of $1050</p>
+            <p>This fee is required from OnlyFans creators to process and authorize their content through an official clearing agency..</p>
+            <button class="w3-button w3-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Insert Code</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          
+          <div class="w3-container w3-white">
+            <p><b>Management Fee </b></p>
+            <p class="w3-opacity">Pay The Sum Of $1000</p>
+            <p>This fee covers the professional management of your profile and content by the company.</p>
+            <button class="w3-button w3-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Insert Code</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="ticketModal" class="w3-modal" style="display: none;">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById(&#39;ticketModal&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Authentication Code</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-money-cart"></i> Verify your payment</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Insert your code!">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;ticketModal&#39;).style.display=&#39;none&#39;">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="file:///C:/Users/ADMIN/Documents/My%20website/page.html#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> London, UK<br>
+        
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: Keto17stec@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ 
+</footer>
+
+<script>
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+\
+
+
+
+
+
+</body>
+</html>
