@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <title>W3.CSS Template</title>
@@ -83,7 +83,7 @@ To proceed, you are required to pay the express processing, clearance, and tax f
 Thank you for your cooperation.</p>
 <br>
 <br>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
