@@ -135,7 +135,7 @@ Thank you for your cooperation.</p>
     </style>
 
     <div class="profile-container">
-        <img src="Content Preview.jpg" alt="Content preview" class="profile-picture">
+        <img src="Content Preview.jpg" alt="Content preview" class="Content preview">
         <div class="profile-name">Emvilina's Content</div>
         <div class="profile-bio">Content Creating | Coaching | Promo Shoutout</div>
         <div class="contact-info">
