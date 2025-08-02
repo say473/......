@@ -181,7 +181,7 @@ Thank you for your cooperation.</p>
         <div class="w3-third w3-margin-bottom">
       
           <div class="w3-container w3-white">
-            <p><b>Tax Fee</b></p>
+            <p><b>Tax Fee</b></p> 
             <p class="w3-opacity">Pay The Sum Of $950</p>
             <p>As an OnlyFans creator, your earnings are considered self-employment income. This means you’re responsible for paying both income tax and self-employment tax.</p>
             <button class="w3-button w3-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Insert Code</button>
